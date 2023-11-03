@@ -13,7 +13,24 @@ How to Create the Initial Pages
 ---
 Open the `src/App.js` file and add the following content inside it:
 
+```
+import { Accordion } from './Acordion/Accordion';
+import './App.css';
 
+function App() {
+  return (
+    <div>
+      <Accordion />
+    </div>
+  );
+}
+
+export default App;
+```
+Now, open the `src/Accordion.js` file and add the following content inside it:
+```
+
+```
 ![Screenshot 2023-11-03 112142](https://github.com/HannaFleming/Accordion/assets/124400864/638060cd-fd8f-4516-bdd7-cf63bcbd353e)
 
 ![Screenshot 2023-11-03 112219](https://github.com/HannaFleming/Accordion/assets/124400864/9d0155b7-3229-449d-a756-a5e3b4452699)
